@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>🚌👴🏼👵🏼【華安銀髮專車】阿華帶您慢遊趣！</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&amp;display=swap" rel="stylesheet"/>
+<style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans TC', sans-serif;
+      background: linear-gradient(to bottom right, #b3ecff, #ffffff),
+                  url('https://www.transparenttextures.com/patterns/cubes.png');
+      background-blend-mode: lighten;
+      color: #333;
+      overflow-x: hidden;
+    }
+    header {
+      background-color: #00bfff;
+      color: white;
+      padding: 1em 0.5em;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      flex-wrap: wrap;
+      margin-top: 0.5em;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 3em 1em;
+      animation: fadeInUp 1s ease;
+    }
+    .title {
+      text-align: center;
+      color: #0077aa;
+    }
+    .card {
+      background: #e6f9ff;
+      border-radius: 20px;
+      padding: 2em;
+      margin: 1em 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .card img {
+      max-width: 100px;
+      display: block;
+      margin: 0 auto 1em;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5em;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 2em;
+    }
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      flex-wrap: wrap;
+      margin-top: 1em;
+    }
+    .cta-buttons a {
+      background-color: #00aaff;
+      color: white;
+      padding: 1em 2em;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 1em;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: #ccf0ff;
+      text-align: center;
+      padding: 2em 1em;
+      margin-top: 4em;
+      font-size: 0.9em;
+    }
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  
+    header h1 {
+      font-size: 1.8em;
+      line-height: 1.5;
+      padding: 0.5em 1em;
+      margin: 0;
+    }
+</style>
+</head>
+<body>
+<header>
+<h1>🚌👴🏼👵🏼<br/>【華安銀髮專車】<br/>華安帶您慢遊趣！</h1>
+<nav>
+<a href="#features">服務特色</a>
+<a href="#routes">行程推薦</a>
+<a href="#pricing">行程價錢</a>
+<a href="#contact">聯絡方式</a>
+</nav>
+</header>
+
+
+
+<section class="section" id="features">
+<h2 class="title">✓ 專為長輩設計 ✓ 安全舒適 ✓ 華哥親自駕駛</h2>
+<div class="grid">
+<div class="card">
+<img alt="慢速駕駛" src="https://cdn-icons-png.flaticon.com/512/2965/2965567.png"/>
+<p>慢速駕駛，不急不趕，舒適安全。</p>
+</div>
+<div class="card">
+<img alt="貼心服務" src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png"/>
+<p>貼心陪伴，耐心聊天像孫子。</p>
+</div>
+<div class="card">
+<img alt="舒適座椅" src="https://cdn-icons-png.flaticon.com/512/3103/3103446.png"/>
+<p>車內乾淨寬敞，座椅舒適好上車。</p>
+</div>
+<div class="card">
+<img alt="熟悉需求" src="https://cdn-icons-png.flaticon.com/512/2696/2696428.png"/>
+<p>熟悉長輩需求，聊天、休息樣樣會。</p>
+</div>
+</div>
+</section><section class="section" id="routes">
+<h2 class="title">熱門行程推薦</h2>
+<div class="card">
+<h3>？？？</h3>
+<p>？？？</p>
+</div>
+<div class="card">
+<h3>？？？</h3>
+<p>？？？</p>
+</div>
+<div class="card">
+<h3>客製化包車</h3>
+<p>阿公阿嬤說去哪，就去哪！行程全配合！</p>
+</div>
+</section><section class="section" id="pricing"><h2 class="title">行程價錢</h2><div class="tabs">
+<button class="tablink active" onclick="openTab(event, 'taichung')">台中機場</button>
+<button class="tablink" onclick="openTab(event, 'taoyuan')">桃園機場</button>
+<button class="tablink" onclick="openTab(event, 'songshan')">松山機場</button>
+<button class="tablink" onclick="openTab(event, 'keelung')">基隆港</button>
+<button class="tablink" onclick="openTab(event, 'chiayi')">嘉義布袋港</button>
+</div><div class="tab-content active" id="taichung">
+<h2>台中機場 價格表</h2>
+<table>
+<thead><tr><th>目的地</th><th>五人座</th><th>九人座</th><th>九人座 (賓士)</th></tr></thead>
+<tbody>
+<tr><td>桃園市區</td><td>2400</td><td>2800</td><td>3600</td></tr>
+<tr><td>台中</td><td>800</td><td>1300</td><td>2100</td></tr>
+<tr><td>高雄</td><td>3800</td><td>4300</td><td>5100</td></tr>
+</tbody>
+</table>
+<p>※ 實際報價請洽 0925-122-723｜Line ID：0925-122-723</p>
+</div><div class="tab-content" id="taoyuan">
+<h2>桃園機場 價格表</h2>
+<table>
+<thead><tr><th>目的地</th><th>五人座</th><th>九人座</th><th>九人座 (賓士)</th></tr></thead>
+<tbody>
+<tr><td>台中</td><td>2700</td><td>3000</td><td>3400</td></tr>
+<tr><td>台北</td><td>1700</td><td>2000</td><td>2400</td></tr>
+<tr><td>墾丁</td><td>8000</td><td>8300</td><td>8700</td></tr>
+</tbody>
+</table>
+<p>※ 實際報價請洽 0925-122-723｜Line ID：0925-122-723</p>
+</div><div class="tab-content" id="songshan">
+<h2>松山機場 價格表</h2>
+<table>
+<thead><tr><th>目的地</th><th>五人座</th><th>九人座</th><th>九人座 (賓士)</th></tr></thead>
+<tbody>
+<tr><td>台中</td><td>2800</td><td>3100</td><td>3600</td></tr>
+<tr><td>台北</td><td>800</td><td>1000</td><td>1300</td></tr>
+<tr><td>墾丁</td><td>8600</td><td>9000</td><td>9600</td></tr>
+</tbody>
+</table>
+<p>※ 實際報價請洽 0925-122-723｜Line ID：0925-122-723</p>
+</div><div class="tab-content" id="keelung">
+<h2>基隆港 價格表</h2>
+<table>
+<thead><tr><th>目的地</th><th>五人座</th><th>九人座</th><th>九人座 (賓士)</th></tr></thead>
+<tbody>
+<tr><td>台中</td><td>3200</td><td>3500</td><td>4000</td></tr>
+<tr><td>台北</td><td>900</td><td>1300</td><td>1600</td></tr>
+<tr><td>墾丁</td><td>9000</td><td>9400</td><td>10100</td></tr>
+</tbody>
+</table>
+<p>※ 實際報價請洽 0925-122-723｜Line ID：0925-122-723</p>
+</div><div class="tab-content" id="chiayi">
+<h2>嘉義布袋港 價格表</h2>
+<table>
+<thead><tr><th>目的地</th><th>五人座</th><th>九人座</th><th>九人座 (賓士)</th></tr></thead>
+<tbody>
+<tr><td>台中</td><td>2200</td><td>2500</td><td>3300</td></tr>
+<tr><td>嘉義</td><td>1300</td><td>1600</td><td>2400</td></tr>
+<tr><td>墾丁</td><td>4300</td><td>4600</td><td>5400</td></tr>
+</tbody>
+</table>
+<p>※ 實際報價請洽 0925-122-723｜Line ID：0925-122-723</p>
+</div></section><section class="section" id="contact">
+<h2 class="title">聯絡我們</h2>
+<div class="card cta">
+<p>有問題或想預約，歡迎撥打電話或加入 LINE！</p>
+<div class="cta-buttons">
+<a href="tel:0925122723">撥打電話：0925-122-723</a>
+<a href="https://line.me/ti/p/byron2442">加入 LINE</a>
+</div>
+<img alt="LINE QR Code" src="line_qrcode.jpg" style="margin-top:1em;max-width:200px;display:block;margin-left:auto;margin-right:auto;"/></div>
+</section><footer>
+    © 2025 華哥銀髮專車．慢慢走比較安心｜粉專與實景圖將持續更新！
+  </footer>
+<script>
+    function openTab(evt, tabName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tab-content");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].classList.remove("active");
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].classList.remove("active");
+      }
+      document.getElementById(tabName).classList.add("active");
+      evt.currentTarget.classList.add("active");
+    }
+  </script></body>
+</html>
